@@ -1,0 +1,60 @@
+#bookAppointment {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#bookAppointment h1 {
+    color: #333;
+    text-align: center;
+}
+
+#bookAppointment p {
+    color: #666;
+    font-size: 16px;
+}
+
+.formbooking {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.formbooking label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.formbooking input[type="text"],
+.formbooking input[type="email"],
+.formbooking select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    background-color: grey;
+    color: white;
+    padding: 8px 18px;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(222, 201, 164);
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    #bookAppointment {
+        padding: 10px;
+    }
+}
